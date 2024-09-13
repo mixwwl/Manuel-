@@ -1,0 +1,29 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>restablecer</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div>
+    <img src="../../../assets/imagen/maes-b-lost-in-a-field.gif" alt="" srcset="">
+  </div>
+  <div>
+    <ion-list>
+      <ion-item>
+        <ion-input label="Nombre Usuario" placeholder="Ingrese un nombre Usuario"  [(ngModel)]="nombre"></ion-input>
+      </ion-item>
+    
+      <ion-item>
+        <ion-input label="Contraseña" type="password" placeholder="Ingrese contraseña Usuario"  [(ngModel)]="password"></ion-input>
+      </ion-item>
+    
+      <ion-item>
+        <ion-button (click)="validar()">
+          recuperar
+        </ion-button>
+      </ion-item>
+
+    </ion-list>
+  </div>
+</ion-content>

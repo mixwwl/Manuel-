@@ -1,0 +1,26 @@
+.button-group {
+    display: flex;
+    justify-content: space-between; /* Distribuye los botones horizontalmente */
+    padding: 10px;
+  }
+  
+  ion-button {
+    flex: 1; /* Hace que cada botón tenga el mismo ancho */
+    margin: 0 5px; /* Añade un pequeño margen entre los botones */
+  }
+
+
+  ion-card {
+    color: white;
+    opacity: 0.5;
+    background: blue;
+    margin: 10px;
+  
+    --background: red;
+  }
+  
+  @media (prefers-color-scheme: dark) {
+    ion-card {
+      --background: green;
+    }
+  }

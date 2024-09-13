@@ -1,0 +1,42 @@
+<ion-header [translucent]="true">
+  <ion-toolbar style="text-align: center;">
+    <ion-title>login</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div>
+    <img src="../../../assets/imagen/gitt 2 meme.gif" alt="" srcset="">
+  </div>
+  <div>
+    <ion-list>
+      <ion-item>
+        <ion-input label="Nombre Usuario" placeholder="Ingrese un nombre Usuario"  [(ngModel)]="nombre"></ion-input>
+      </ion-item>
+    
+      <ion-item>
+        <ion-input label="Contraseña" type="password" placeholder="Ingrese contraseña Usuario"  [(ngModel)]="password"></ion-input>
+      </ion-item>
+    
+      <ion-item>
+        <ion-button (click)="validar()">
+          Entrar
+        </ion-button>
+      </ion-item>
+
+      <ion-item>
+        <ion-button (click)="direccionar()">
+          recuperar contraseña
+        </ion-button>
+      </ion-item>
+
+
+      <ion-item>
+        <ion-button (click)="crearusuario()">
+          Crear Usuario
+        </ion-button>
+      </ion-item>
+
+    </ion-list>
+  </div>
+</ion-content>

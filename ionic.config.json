@@ -1,0 +1,7 @@
+{
+  "name": "ViajesMundo",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

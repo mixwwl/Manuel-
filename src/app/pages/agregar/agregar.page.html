@@ -1,0 +1,21 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>agregar</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+    <div class="imp">
+      <img src="../../../assets/imagen/minions.gif" alt="" srcset="">
+    </div>
+
+    <div>
+      <ion-list>
+        <ion-item> <ion-input label="Nombre" placeholder="ingrese nombre" ></ion-input></ion-item>
+        <ion-item> <ion-input label="Apellido" placeholder="ingrese apellido" ></ion-input></ion-item>
+        <ion-item> <ion-input label="Direccion" placeholder="ingrese direccion" ></ion-input></ion-item>
+        <ion-item> <ion-input label="Telefono" placeholder="ingrese telefono" ></ion-input></ion-item>
+        <ion-item> <ion-button (click)="crear()" >Agregar Usuario</ion-button>  </ion-item>
+      </ion-list>
+    </div>
+</ion-content>

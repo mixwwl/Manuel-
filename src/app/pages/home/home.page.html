@@ -1,0 +1,45 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Bienvenido {{usuario}}
+    </ion-title>
+  </ion-toolbar>
+  <ion-searchbar></ion-searchbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div>
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>Viajes</ion-card-title>
+        <ion-card-subtitle>Anuncio</ion-card-subtitle>
+      </ion-card-header>
+    
+      <ion-card-content>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae, nemo? Necessitatibus quam sit veniam repudiandae error neque earum eveniet commodi praesentium impedit, quisquam expedita vitae esse maiores quod deserunt aperiam.
+      </ion-card-content>
+    </ion-card>
+  </div>
+
+  <div class="button-group">
+    <ion-button routerLink="/viaje">Agregar</ion-button>
+    <ion-button routerLink="/ver">Ver</ion-button>
+    <ion-button routerLink="/editar">Editar</ion-button>
+  </div>
+  
+  <div>
+    <ion-card>
+      <ion-card-content>Card</ion-card-content>
+    </ion-card>
+    
+    <ion-button (click)="play()">Play</ion-button>
+    <ion-button (click)="pause()">Pause</ion-button>
+    <ion-button (click)="stop()">Stop</ion-button>
+  </div>
+
+</ion-content>
+
+
+
+
+ 

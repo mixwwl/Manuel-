@@ -1,0 +1,33 @@
+
+.fondo-verde {
+    background: #28a745; /* Fondo verde */
+}
+
+.contenedor{
+    margin-top: 25px;
+    text-align: center;
+}
+
+.contenedor img{
+    border-radius: 25px 25px 25px 25px ;
+    border: solid 2px red;
+}
+
+.quienes-somos {
+    background-color: rgb(238, 235, 235);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .quienes-somos h2 {
+    background-color: black;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+  }
+  
+  .quienes-somos p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    color: #333;
+  }
